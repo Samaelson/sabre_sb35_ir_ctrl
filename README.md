@@ -1,5 +1,5 @@
 # sabre_sb35_ir_ctrl - Harman Kardon SABRE SB35 IRDROID Based Infrared Control System
----
+
 A Windows-based infrared (IR) control system that allows you to control Harman Kardon SABRE SB35 sound system using simple text commands.
 
 It uses a PowerShell client, a Python Windows Service backend, and a IRDROID USB IR Transceiver, communicating via Windows Named Pipes (JSON IPC).
