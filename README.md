@@ -6,7 +6,7 @@ It uses a PowerShell client, a Python Windows Service backend, and a IRDROID USB
 
 
 # SYSTEM OVERVIEW
----
+
 Batch Script (optional launcher)
         ↓
 PowerShell Client (Script 1)
@@ -42,7 +42,7 @@ Target Devices (Harman Kardon Sabre SB 35)
 ## Batch Script:
 - Simple shortcut launcher
 - Executes PowerShell commands hidden
----
+
 
 # REQUIREMENTS
 
@@ -56,7 +56,7 @@ Target Devices (Harman Kardon Sabre SB 35)
 
 ## Python packages:
 pip install pywin32 pyserial
----
+
 
 # INSTALLATION
 
@@ -107,7 +107,7 @@ Test:
 powershell.exe -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass ^
 -File "C:\Scripts\irdroid.ps1" -Command "bluetooth" "power"
 ```
----
+
 
 # USAGE
 
@@ -126,7 +126,6 @@ powershell.exe -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass ^
 .\irdroid.ps1 bluetooth power hdmi1
 ```
 
----
 
 # COMMAND MAPPING
 
@@ -144,7 +143,7 @@ bassdown    -> bass_down
 stereo      -> stereo
 virtual     -> virtual
 
----
+
 
 # COMMUNICATION PROTOCOL
 
@@ -168,7 +167,7 @@ Statuses:
 - fail
 - unknown
 - timeout
----
+
 
 # PYTHON SERVICE DETAILS
 
@@ -190,7 +189,7 @@ Statuses:
 - Timeout handling (5 seconds)
 - Safe locking system
 - Graceful shutdown
----
+
 
 # METRICS
 
@@ -202,7 +201,7 @@ Statuses:
 - total commands
 - latency per command
 
----
+
 
 # LIMITATIONS
 
@@ -211,7 +210,7 @@ Statuses:
 - Requires admin rights for recovery
 - Depends on specific USB hardware (VID/PID)
 - No encryption for IPC
----
+
 
 # USE CASES
 
@@ -220,7 +219,7 @@ Statuses:
 - Audio system switching
 - Macro automation
 - Scripted remote control replacement
----
+
 
 # SUMMARY
 
