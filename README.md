@@ -60,6 +60,8 @@ pip install pywin32 pyserial
 
 # INSTALLATION
 
+Simply use "install_irdroid.ps1" installation script or do an manual installation as follows: 
+
 ## 1. Clone repository:
 ```bash
 git clone https://github.com/yourname/irdroid-control-system.git
