@@ -7,17 +7,15 @@ It uses a PowerShell client, a Python Windows Service backend, and a IRDROID USB
 
 # SYSTEM OVERVIEW
 
-Batch Script (optional launcher)  
-             ↓  
-PowerShell Client (Script 1)  
-             ↓  
-Named Pipe (\\.\pipe\irdroid)  
-             ↓  
-Python Windows Service (Script 2)  
-             ↓  
-USB IR Device (IRDroid USB Transceiver)  
-             ↓  
-Target Devices (Harman Kardon Sabre SB 35)  
+PowerShell Client (Script 1)<br>
+↓<br>
+Named Pipe (\\.\pipe\irdroid)<br>
+↓<br>
+Python Windows Service (Script 2)<br>
+↓<br>
+USB IR Device<br>
+↓<br>
+Target Device
 
 
 # FEATURES
