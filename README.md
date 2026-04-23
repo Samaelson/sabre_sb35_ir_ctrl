@@ -7,6 +7,8 @@ It uses a PowerShell client, a Python Windows Service backend, and a IRDROID USB
 
 # SYSTEM OVERVIEW
 
+<div align="center">
+
 PowerShell Client (Script 1)<br>
 ↓<br>
 Named Pipe (\\.\pipe\irdroid)<br>
@@ -16,6 +18,8 @@ Python Windows Service (Script 2)<br>
 USB IR Device<br>
 ↓<br>
 Target Device
+
+</div>
 
 
 # FEATURES
