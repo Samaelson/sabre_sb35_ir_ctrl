@@ -7,27 +7,17 @@ It uses a PowerShell client, a Python Windows Service backend, and a IRDROID USB
 
 # SYSTEM OVERVIEW
 
-<div style="text-align:left;">
-
-PowerShell Client (Script 1)
-
-<div style="text-align:center;">↓</div>
-
-Named Pipe (\\.\pipe\irdroid)
-
-<div style="text-align:center;">↓</div>
-
-Python Windows Service (Script 2)
-
-<div style="text-align:center;">↓</div>
-
-USB IR Device
-
-<div style="text-align:center;">↓</div>
-
+<p align="center">
+PowerShell Client (Script 1)<br>
+↓<br>
+Named Pipe (\\.\pipe\irdroid)<br>
+↓<br>
+Python Windows Service (Script 2)<br>
+↓<br>
+USB IR Device<br>
+↓<br>
 Target Device
-
-</div>
+</p>
 
 
 # FEATURES
